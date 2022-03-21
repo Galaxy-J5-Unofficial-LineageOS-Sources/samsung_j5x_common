@@ -22,4 +22,4 @@ LOCAL_PATH := device/samsung/j5x-common
 include $(LOCAL_PATH)/board/*.mk
 
 # Include
-TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
+TARGET_SPECIFIC_HEADER_PATH += $(LOCAL_PATH)/include
