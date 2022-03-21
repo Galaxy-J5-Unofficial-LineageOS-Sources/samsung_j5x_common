@@ -11,7 +11,7 @@ $(call inherit-product, device/samsung/msm8916-common/lineage_msm8916.mk)
 # Inherit from vendor
 $(call inherit-product, vendor/samsung/j5x-common/j5x-common-vendor.mk)
 
-DEVICE_PATH := device/samsung/j5-common
+DEVICE_PATH := device/samsung/j5x-common
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
