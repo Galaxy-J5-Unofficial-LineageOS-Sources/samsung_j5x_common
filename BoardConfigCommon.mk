@@ -20,6 +20,3 @@ LOCAL_PATH := device/samsung/j5x-common
 
 # Include board config fragments
 include $(LOCAL_PATH)/board/*.mk
-
-# Include
-TARGET_SPECIFIC_HEADER_PATH += $(LOCAL_PATH)/include
